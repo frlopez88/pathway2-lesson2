@@ -28,6 +28,6 @@ function callArtist(){
 }
 callArtist()
 
-// Create a data base of your songs of the previous artists and render them into 
+// Create a data base of your favorites songs of the previous artists and render them into 
 // another UL 
 // add your commit
