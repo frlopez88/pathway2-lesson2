@@ -16,3 +16,14 @@ let data = [
 ]
 
 // render this data into a list
+
+
+function callArtist(){
+
+  for (let i=0; i <data.length; i++){
+
+    artistOutput.innerHTML+= `<li class="list-group-item"> ${data[i].name} ${data[i].lastName}
+    </li>`
+  }
+}
+callArtist()
